@@ -1,0 +1,6 @@
+Deployment commands
+===================
+kubectl rollout status deploy webapp
+kubectl rollout history deploy webapp
+kubectl rollout undo deploy webapp --to-revision=2
+kubectl rollout undo deploy webapp
