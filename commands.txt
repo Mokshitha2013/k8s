@@ -4,3 +4,15 @@ kubectl rollout status deploy webapp
 kubectl rollout history deploy webapp
 kubectl rollout undo deploy webapp --to-revision=2
 kubectl rollout undo deploy webapp
+
+
+Namespace
+=========
+To list all name sapce
+kubectl get ns    
+
+To get info about name-space
+kubectl get all -n kube-system
+
+To get describe service from particular namespace
+kubectl describe svc kube-dns -n kube-system
